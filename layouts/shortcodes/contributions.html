@@ -1,0 +1,90 @@
+
+{{ $dataProjects := getJSON "data/projects.json" }}
+{{ $contributions := $dataProjects.contributions }}
+{{ $length_items := len $contributions }}
+
+{{ $label_titleItems := i18n "contributions.titleItems" | default "Items of contributions" }}
+{{ $label_type := i18n "contributions.type" | default "Type" }}
+{{ $label_project := i18n "contributions.project" | default "Project" }}
+{{ $label_technologies := i18n "contributions.technologies" | default "Technologies" }}
+{{ $label_engagement := i18n "contributions.engagement" | default "Engagement" }}
+{{ $label_metrics := i18n "contributions.metrics" | default "Metrics" }}
+{{ $label_preview := i18n "contributions.preview" | default "Preview" }}
+{{ $label_stars := i18n "contributions.metrics_sub.stars" | default "stars" }}
+{{ $label_downloads := i18n "contributions.metrics_sub.downloads" | default "downloads" }}
+
+<h3>{{ $length_items }} {{ $label_titleItems }}:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        <center>🗃️ {{ $label_type }}</center>
+      </th>
+      <th>
+        <center>🎁 {{ $label_project }}</center>
+      </th>
+      <th>
+        <center>🛠 {{ $label_technologies }}</center>
+      </th>
+      <th>
+        <center>📈 {{ $label_engagement }}</br>{{ $label_metrics }}</center>
+      </th>
+      <th>
+        <center>🔍 {{ $label_preview }}</center>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $item := $contributions }}
+      {{ if $item._enabled }}
+      <tr>
+        <td aria-label="{{ $label_type }}: {{ $item.type }}">
+          <p aria-hidden="true">{{ $item.type }}</p>
+        </td>
+        <td aria-label="{{ $label_project }}: {{ $item.name }} - {{ $item.description }}">
+          <div aria-hidden="true">
+            <a
+              href="{{ $item.link }}"
+              class="external-link"
+              target="_blank"
+              rel="noopener"
+            >{{ $item.name }}</a>
+            </br>{{ $item.description }}
+          </div>
+        </td>
+        <td>
+          {{ range $tech := $item.technologies }}
+            {{ if $tech }}
+              {{ if $item._bullet_point_technologies}}* {{ end }}{{ $tech }}<br />
+            {{ end }}
+          {{ end }}
+        </td>
+        <td>
+          {{ if $item.engagement_metrics.stars }}
+            ⭐️ {{ $item.engagement_metrics.stars }} {{ $label_stars }}
+          {{ end }}
+          {{ if $item.engagement_metrics.downloads }}
+            </br>📥 {{ $item.engagement_metrics.downloads }} {{ $label_downloads }}
+          {{ end }}
+        </td>
+        <td>
+          {{ if $item.preview }}
+            <a
+            href="{{ $item.link }}"
+            class="external-link"
+            target="_blank"
+            rel="noopener"
+            >
+              <img
+                src="{{ $item.preview }}"
+                alt="{{ $label_preview }}: {{ $item.name }}"
+              />
+            </a>
+          {{ end }}
+        </td>
+      </tr>
+      {{ end }}
+    {{ end }}
+  </tbody>
+</table>

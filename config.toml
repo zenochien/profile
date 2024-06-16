@@ -1,0 +1,284 @@
+relativeURLs = true
+baseURL = "chuaco"
+title = "Tech-ZenoChien"
+theme = "hugo-coder"
+languageCode = "en"
+#defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "monokai"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+# Enable Disqus comments
+# disqusShortname = "andgar2010"
+enableRobotsTXT = true
+
+ignoreLogs = ['err-youtube-remote']
+
+[markup.highlight]
+noClasses = false
+
+[params]
+author = "Chien Pham Minh"
+description = "ZenoChien personal website"
+keywords = "blog,developer,personal,cloud,deaf"
+info = [
+  "Cloud Developer ",
+  "Vietnamese Sign Language (VSC) ",
+  "International Sign Language (ISC) Translator ",
+  "Adventurer ",
+]
+avatarURL = "images/avatar"
+#gravatar = "john.doe@example.com"
+footerContent = "H E L L O @ T E C H - C H I E N  . M E"
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+dateFormat = "January 2, 2006"
+hideFooter = false
+hideCredits = true
+hideCopyright = false
+since = 2020
+# Git Commit in Footer, uncomment the line below to enable it
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+# Right To Left, shift content direction for languages such as Arabic
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS
+customSCSS = []
+# Custom JS
+customJS = []
+
+# If you want to use fathom(https://usefathom.com) for analytics, add this section
+# [params.fathomAnalytics]
+# siteID = "ABCDE"
+# serverURL = "analytics.example.com" # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+
+# If you want to use plausible(https://plausible.io) for analytics, add this section
+# [params.plausibleAnalytics]
+# domain = "example.com"
+# serverURL = "analytics.example.com" # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+
+# If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
+# [params.goatCounter]
+# code = "code"
+
+# If you want to use Cloudflare Web Analytics(https://cloudflare.com) for analytics, add this section
+# [params.cloudflare]
+# token = "token"
+
+# If you want to use Matomo(https://matomo.org) for analytics, add this section
+# [params.matomo]
+# siteID = "ABCDE" # Default value is "1", overwrite this if you are cloud-hosting
+# serverURL = "analytics.example.com" # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
+
+# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
+[params.googleTagManager]
+id = "G-Z91ZFKFVDX"
+
+# If you want to implement a Content-Security-Policy, add this section
+[params.csp]
+childsrc = [
+  "'self'",
+]
+fontsrc = [
+  "'self'",
+  "https://fonts.gstatic.com",
+  "https://cdn.jsdelivr.net/",
+]
+formaction = [
+  "'self'",
+]
+framesrc = [
+  "'self'",
+  "https://www.youtube.com",
+  "https://giscus.app",
+]
+imgsrc = [
+  "'self'",
+  "https://user-images.githubusercontent.com",
+  "https://www.google-analytics.com",
+  "https://i.vimeocdn.com",
+  "https://i.ytimg.com",
+]
+objectsrc = ["'none'"]
+stylesrc = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://fonts.googleapis.com/",
+  "https://cdn.jsdelivr.net/"
+]
+scriptsrc = [
+  "'self'",
+  "eval",
+  "'unsafe-inline'",
+  "'unsafe-eval'",
+  "https://www.google-analytics.com",
+  "https://static.cloudflareinsights.com",
+  "https://www.googletagmanager.com/",
+  "https://polyfill.io",
+  "https://cdn.jsdelivr.net",
+  "https://giscus.app",
+]
+# connect-src directive - defines valid targets for to XMLHttpRequest (AJAX),WebSockets or EventSource
+connectsrc = [
+  "'self'",
+  "https://www.google-analytics.com",
+]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[params.giscus] # https://giscus.app
+repo = "andgar2010/home-page"
+repoID = "R_kgDOGJTFUQ"
+category = "Comments"
+categoryID = "DIC_kwDOGJTFUc4CXnjc"
+mapping = "pathname"
+term = ""
+strict = "0"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+theme = ""
+lang = "en"
+loading = ""
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = ""
+
+# [[params.social]]
+# name = "Stackoverflow"
+# icon = "fa-brands fa-stack-overflow fa-2x"
+# weight = 2
+# url = ""
+
+# [[params.social]]
+# name = "GitLab"
+# icon = "fa-brands fa-gitlab fa-2x"
+# weight = 2
+# # url = ""
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 3
+url = "https://www.linkedin.com/in/chien-pm-deaf/"
+
+# [[params.social]]
+# name = "Youtube"
+# icon = "fa-brands fa-youtube fa-2x"
+# weight = 4
+# url = ""
+
+# [[params.social]]
+# name = "Twitter"
+# icon = "fa-brands fa-twitter fa-2x"
+# weight = 5
+# url = "https://link.tech-andgar.me/twitter"
+
+# [[params.social]]
+# name = "Medium"
+# icon = "fa-brands fa-medium fa-2x"
+# weight = 5
+# url = "https://medium.com/@andgar2010"
+
+# [[params.social]]
+# name = "RSS"
+# icon = "fa-brands fa-rss fa-2x"
+# weight = 6
+# url = "https://tech-andgar.me/index.xml"
+# rel = "alternate"
+# type = "application/rss+xml"
+
+#[[params.social]]
+# name = "RSS"
+# icon = "fa-brands fa-rss fa-2x"
+# weight = 6
+# url = "http://bit.ly/CertiSololearn-AndGar"
+# rel = "alternate"
+# type = "application/rss+xml"
+
+[languages.en]
+  languageName = "English :uk:"
+
+[[languages.en.menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+
+[[languages.en.menu.main]]
+  name = "Blog"
+  weight = 2
+  url = "posts/"
+
+[[languages.en.menu.main]]
+  name = "Projects"
+  weight = 3
+  url = "projects/"
+
+[[languages.en.menu.main]]
+  name = "Contact me"
+  weight = 5
+  url = "contact/"
+
+[[languages.en.menu.main]]
+  name = "CV"
+  weight = 6
+  url = "https://link.tech-andgar.me/CVAFGR202404DEV"
+
+[languages.vn]
+  languageName = "Vietnamese"
+  title = "TECH-ZENOCHIEN"
+
+[languages.vn.params]
+author = "Phạm Minh Chiến"
+info = [
+  "Nghề: Junoir Cloud Engineer",
+  "Ngôn ngữ kí hiệu Việt Nam (NNKH VN) ",
+  "Ngôn ngữ kí hiệu Quốc tế (NNKH QT) ",
+  "Nhà thám hiểm ",
+  ]
+  description = "Trang cá nhân của ZenoChien"
+  keywords = "blog,desarrollador,personal,flutter,Sordo"
+  footerContent = "H E L L O @ T E C H - A N D G A R . M E"
+
+[[languages.vn.menu.main]]
+  name = "Về tôi"
+  weight = 1
+  url = "vn/about"
+
+[[languages.vn.menu.main]]
+  name = "Câu chuyện"
+  weight = 2
+  url = "vn/posts/"
+
+[[languages.vn.menu.main]]
+  name = "Dự án"
+  weight = 3
+  url = "vn/projects"
+
+[[languages.vn.menu.main]]
+  name = "Liên lạc"
+  weight = 5
+  url = "vn/contact"
+
+[[languages.vn.menu.main]]
+  name = "CV"
+  weight = 6
+  url = "https://link.tech-andgar.me/CVAFGR202404DEV"

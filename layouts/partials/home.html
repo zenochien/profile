@@ -1,0 +1,52 @@
+<section class="container centered">
+  <div class="about">
+    {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
+      {{ with .Site.Params.avatarURL }}
+        <div class="avatar">
+          <picture>
+            <source srcset="{{ . | relURL }}.webp"/>
+            <img src="{{ . | relURL }}.jpg" width="350" height="350" alt="avatar" />
+          </picture>
+
+        </div>
+      {{ end }}
+    {{ end }}
+    {{ with .Site.Params.gravatar }}
+      <div class="avatar"><img src="https://www.gravatar.com/avatar/{{ md5 . }}?s=240&d=mp" alt="gravatar"></div>
+    {{ end }}
+    <h1> {{ .Site.Params.author }}</h1>
+    {{ if reflect.IsSlice .Site.Params.info }}
+    {{ $label_iam := i18n "home.iam" | default "I'm" }}
+    <div aria-labelledby="infoHeading" class="sr-only">
+      <h2 id="infoHeading">{{ $label_iam }}</h2>
+      <ul id="infoList">
+        {{ range .Site.Params.info }}
+          <li>• {{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    <h2 aria-hidden="true">
+      <span id="typewriter"></span><span id="cursor">|</span>
+    </h2>
+    {{ else }}
+    <h2>{{ .Site.Params.info }}</h2>
+    {{ end }}
+    {{ with .Site.Params.social }}
+    <ul>
+      {{ range sort . "weight" }}
+        {{ if .icon }}
+          <li>
+            <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+            </a>
+          </li>
+        {{ else }}
+          <li>
+            <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>{{ .name }}</a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</section>

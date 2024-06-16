@@ -1,0 +1,55 @@
+{{ if .Site.IsServer }}
+  {{ $cssOpts := (dict "targetPath" "css/bundle.css" "enableSourceMap" true ) }}
+  {{ $styles := resources.Get "scss/custom_style.scss" | resources.ExecuteAsTemplate "style.bundle.css" . | toCSS $cssOpts }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
+{{ else }}
+  {{ $cssOpts := (dict "targetPath" "css/bundle.css" ) }}
+  {{ $styles := resources.Get "scss/custom_style.scss" | resources.ExecuteAsTemplate "style.bundle.css" . | toCSS $cssOpts | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
+{{ end }}
+
+<div id="black-fire" aria-hidden="true">
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+</div>
+
+<div id="cursor-color-bg" aria-hidden="true"></div>
+<div id="cursor-color-bg--blur" aria-hidden="true"></div>
+
+<div id="trailer" aria-hidden="true">
+  <i id="trailer-icon" aria-hidden="true"></i>
+</div>
+
+{{ $ts_typewriter := resources.Get "ts/typewriter.ts" }}
+{{ $js_animation_h1 := resources.Get "js/animation_h1.js" }}
+{{ $js_cursor_color_blur := resources.Get "js/cursor_color_blur.js" }}
+{{ $js_trailer_cursor := resources.Get "js/trailer_cursor.js" }}
+{{ $black_fire_cursor_trail_animation := resources.Get "js/black_fire_cursor_trail_animation.js" }}
+
+{{ if .Site.IsServer }}
+  {{ $ts_bundle := slice $ts_typewriter | resources.Concat "ts/bundle.ts" | js.Build }}
+  {{ $js_bundle := slice $js_cursor_color_blur $js_trailer_cursor $js_animation_h1 $black_fire_cursor_trail_animation $ts_bundle | resources.Concat "js/bundle.js" }}
+  <script defer src="{{ $js_bundle.RelPermalink }}"></script>
+{{ else }}
+  {{ $ts_bundle := slice $ts_typewriter | resources.Concat "ts/bundle.min.ts" | js.Build (dict "minify" true) | fingerprint }}
+  {{ $js_bundle := slice $js_cursor_color_blur $js_trailer_cursor $js_animation_h1 $black_fire_cursor_trail_animation $ts_bundle | resources.Concat "js/bundle.min.js" | js.Build (dict "minify" true) | fingerprint }}
+  <script defer src="{{ $js_bundle.RelPermalink }}" crossorigin="anonymous"></script>
+{{ end }}

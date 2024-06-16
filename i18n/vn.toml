@@ -1,0 +1,18 @@
+[hello]
+  other = "Hello, world!"
+
+[home]
+  iam = "Tôi"
+
+[contributions]
+  titleItems = "Đóng góp cộng đồng"
+  type = "Type"
+  project = "Dự án"
+  technologies = "Công nghệ thông tin"
+  engagement = "Tự do"
+  metrics = "Thông kê"
+  preview = "Preview"
+
+  [contributions.metrics_sub]
+    stars = "stars"
+    downloads = "downloads"

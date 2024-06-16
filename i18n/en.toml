@@ -1,0 +1,18 @@
+[hello]
+  other = "Hello, world!"
+
+[home]
+  iam = "I am"
+
+[contributions]
+  titleItems = "Items of contributions"
+  type = "Type"
+  project = "Project"
+  technologies = "Technologies"
+  engagement = "Engagement"
+  metrics = "Metrics"
+  preview = "Preview"
+
+  [contributions.metrics_sub]
+    stars = "stars"
+    downloads = "downloads"
