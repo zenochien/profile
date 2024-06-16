@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sordera on Tech-ZenoChien</title>
+    <link>chuaco/categories/sordera/</link>
+    <description>Recent content in Sordera on Tech-ZenoChien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="chuaco/categories/sordera/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABC de la Sordera-Hipoacusia</title>
+      <link>chuaco/posts/abc-de-la-sordera-hipoacusia/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/abc-de-la-sordera-hipoacusia/</guid>
+      <description>El ABC de la sordera y la hipoacusia&#xD;Link to heading&#xD;Por Andrés García&#xA;Adaptación de la versión original en inglés (American Sign Language Class Reference Handout of DHCC Deaf-Hearing Communication Centre [Clase de Lengua de Señas Estadounidense - Folleto de referencia de Centro de comunicación para sordos] y Nagish) para el español y la Lengua de Señas Colombiana (LSC).&#xA;Agradecimientos: Traducción automática por DeepL AI y Revisado por Mateo Restrepo &amp;lt;mateo.</description>
+    </item>
+  </channel>
+</rss>

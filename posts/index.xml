@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tech-ZenoChien</title>
+    <link>chuaco/posts/</link>
+    <description>Recent content in Posts on Tech-ZenoChien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="chuaco/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>`http_status` Dart Package: A Comprehensive Guide</title>
+      <link>chuaco/posts/dart-http_status-package/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/dart-http_status-package/</guid>
+      <description>http_status Dart Package: A Comprehensive Guide&#xD;Link to heading&#xD;Description&#xD;Link to heading&#xD;Constants: http_status provides convenient static constants representing all HTTP status codes defined in RFC 1945 (HTTP/1.0), RFC 2616 (HTTP/1.1), and RFC 2518 (WebDAV). Clarity: Each constant offers a clear name (e.g., ok, notFound, forbidden), making it easy to understand the meaning of a status code at a glance. Information: Constants also provide a concise description of the status code, which can be helpful in debugging or understanding API responses.</description>
+    </item>
+    <item>
+      <title>`http_status` Paquete de Dart: Una Guía Completa</title>
+      <link>chuaco/posts/dart-http_status-package/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/dart-http_status-package/</guid>
+      <description>http_status Paquete de Dart: Una Guía Completa&#xD;Link to heading&#xD;Descripción&#xD;Link to heading&#xD;Constantes: http_status proporciona constantes estáticas que representan todos los códigos de estado HTTP definidos en RFC 1945 (HTTP/1.0), RFC 2616 (HTTP/1.1), y RFC 2518 (WebDAV). Claridad: Cada constante ofrece un nombre claro (por ejemplo, ok, notFound, forbidden), facilitando la comprensión del significado de un código de estado de un vistazo. Información: Las constantes también ofrecen una descripción concisa del código de estado, que puede ser útil para depurar o entender las respuestas de la API.</description>
+    </item>
+    <item>
+      <title>Recursos Lengua De Señas Colombiana (LSC)</title>
+      <link>chuaco/posts/recursos-lengua-de-se%C3%B1as-colombiana-lsc/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/recursos-lengua-de-se%C3%B1as-colombiana-lsc/</guid>
+      <description>RECURSOS LENGUA DE SEÑAS COLOMBIANA (LSC)&#xD;Link to heading&#xD;¿Quién es una persona sorda? ¿Porqué no somos sordomudos? (FENASCOL)&#xD;Link to heading&#xD;No es lenguaje de señas, es Lengua de Señas (FENASCOL)&#xD;Link to heading&#xD;¿Qué significa &amp;ldquo;Comunidad Sorda&amp;rdquo;? (FENASCOL)&#xD;Link to heading&#xD;Ensayo: ¿Cómo se escucha el silencio? (Edición en LSC) [sub-ES]&#xD;Link to heading&#xD;Playlists de videos&#xD;Link to heading&#xD;Historia de la LSC (FENASCOL)&#xA;INSEÑAS (INSOR)</description>
+    </item>
+    <item>
+      <title>Playlist - FlutterConf Latam 2023 - Medellín, Colombia (Con Interpretación Lengua de Señas Colombiana LSC) - No oficial</title>
+      <link>chuaco/posts/playlist-flutterconf-latam-2023-medell%C3%ADn-colombia-con-interpretaci%C3%B3n-lengua-de-se%C3%B1as-colombiana-lsc-no-oficial/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/playlist-flutterconf-latam-2023-medell%C3%ADn-colombia-con-interpretaci%C3%B3n-lengua-de-se%C3%B1as-colombiana-lsc-no-oficial/</guid>
+      <description>FlutterConf Latam 2023, Medellín, Colombia - No oficial&#xD;Link to heading&#xD;Playlist YT&#xA;Con audio español y interpretación Lengua de Señas Colombiana (LSC)&#xD;Link to heading&#xD;Performance Best Practices&#xD;Link to heading&#xD;Expositor: David Rios - Track 2 - 2023/10/25 17:20&#xA;Powering your Flutter apps with gRPC&#xD;Link to heading&#xD;Expositor: Gianfranco Papa - Track 1 - 2023/10/25 16:22&#xA;Llevando Flutter a Extremo: Más allá del móvil, el escritorio y la web&#xD;Link to heading&#xD;Expositor: Dolph Hincapie - Talleres - 2023/10/25 14:05</description>
+    </item>
+    <item>
+      <title>Lenguas de señas y lengua hablada: una comparación de sistemas lingüísticos</title>
+      <link>chuaco/posts/lenguas-de-se%C3%B1as-y-lengua-hablada-una-comparaci%C3%B3n-de-sistemas-ling%C3%BC%C3%ADsticos/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/lenguas-de-se%C3%B1as-y-lengua-hablada-una-comparaci%C3%B3n-de-sistemas-ling%C3%BC%C3%ADsticos/</guid>
+      <description>Lenguas de señas y lengua hablada: una comparación de sistemas lingüísticos&#xD;Link to heading&#xD;Las lenguas de señas explotan las características únicas del medio visual y táctil para la comunicación, incluso existen lenguas de señas táctiles. Por otro lado, la lengua hablada se basa en la percepción auditiva y es un sistema de comunicación bidimensional, secuencial y lineal, en el cual las palabras se disponen en una secuencia temporal para formar una oración y transmitir significado.</description>
+    </item>
+    <item>
+      <title>ABC de la Sordera-Hipoacusia</title>
+      <link>chuaco/posts/abc-de-la-sordera-hipoacusia/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/abc-de-la-sordera-hipoacusia/</guid>
+      <description>El ABC de la sordera y la hipoacusia&#xD;Link to heading&#xD;Por Andrés García&#xA;Adaptación de la versión original en inglés (American Sign Language Class Reference Handout of DHCC Deaf-Hearing Communication Centre [Clase de Lengua de Señas Estadounidense - Folleto de referencia de Centro de comunicación para sordos] y Nagish) para el español y la Lengua de Señas Colombiana (LSC).&#xA;Agradecimientos: Traducción automática por DeepL AI y Revisado por Mateo Restrepo &amp;lt;mateo.</description>
+    </item>
+    <item>
+      <title>Buenas prácticas para nombrar las variables de forma modular</title>
+      <link>chuaco/posts/buenas-pr%C3%A1cticas-para-nombrar-las-variables-de-forma-modular/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/buenas-pr%C3%A1cticas-para-nombrar-las-variables-de-forma-modular/</guid>
+      <description>Estándar nombramiento las variables de forma modular&#xD;Link to heading&#xD;Cuando trabajas con un lenguaje de programación, es necesario aprovechar el poder de las variables. Sin embargo, si creas nombres de variables espontáneamente a medida que programas, lo más probable es que tu convención de nomenclatura carezca de cohesión. Deberías pensar en organizar los nombres de tus variables (y del proyecto en general) de forma modular. Esto aportará estructura y unidad a tu proyecto en su conjunto, lo que facilitará su comprensión y navegación.</description>
+    </item>
+    <item>
+      <title>Dart - En lo posible utilice la asignación tardía</title>
+      <link>chuaco/posts/dart-late-keyword/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/dart-late-keyword/</guid>
+      <description>Dart v2.9 añadió el modificador late en las variables.&#xA;Cuando Null Safety está activado, en algunas ocasiones es necesario indicar explícitamente que inicializaremos una variable no nula posteriormente. Dart no siempre puede asumir que una variable será inicializada más adelante, como en el caso de las variables de alto nivel. El siguiente ejemplo arrojaría un error en Dart.&#xA;Esto puede ser usado en los siguientes dos casos.&#xA;Late assign: promesa de asignación más tarde</description>
+    </item>
+    <item>
+      <title>Dart - Use late allocation if possible</title>
+      <link>chuaco/posts/dart-late-keyword/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/dart-late-keyword/</guid>
+      <description>Dart v2.9 added the late modifier on variables.&#xA;When Null Safety is enabled, it is sometimes necessary to explicitly state that we will initialize a non-null variable later. Dart cannot always assume that a variable will be initialized later, as in the case of high-level variables. The following example would throw an error in Dart.&#xA;This can be used in the following two cases.&#xA;Late assign: promise to assign later</description>
+    </item>
+    <item>
+      <title>Flutter Test Coverage</title>
+      <link>chuaco/posts/flutter-test-coverage/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/flutter-test-coverage/</guid>
+      <description>LCOV is a graphical tool for GCC coverage testing with gcov. It creates HTML pages containing source code annotated with coverage information by collecting gcov data from multiple source files. LCOV supports &amp;ldquo;Line Coverage&amp;rdquo; and &amp;ldquo;Function Coverage&amp;rdquo; measurement.&#xA;The LCOV report looks as follows:&#xA;Installation&#xD;Link to heading&#xD;Install on Ubuntu&#xD;Link to heading&#xD;sudo apt-get update -qq -y sudo apt-get install lcov -y Install on Mac&#xD;Link to heading&#xD;brew install lcov Install on Windows&#xD;Link to heading&#xD;Required:</description>
+    </item>
+    <item>
+      <title>La cobertura de pruebas (Test Coverage) en Flutter</title>
+      <link>chuaco/posts/la-cobertura-de-pruebas-test-coverage-en-flutter/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/la-cobertura-de-pruebas-test-coverage-en-flutter/</guid>
+      <description>LCOV es una herramienta gráfica para las pruebas de cobertura de GCC con gcov. Crea páginas HTML que contienen el código fuente anotado con información de cobertura mediante la recopilación de datos gcov de múltiples archivos fuente. LCOV soporta la medición de &amp;ldquo;Cobertura de líneas&amp;rdquo; y &amp;ldquo;Cobertura de funciones&amp;rdquo;.&#xA;El informe de LCOV tiene el siguiente aspecto:&#xA;Instalación&#xD;Link to heading&#xD;Instalar en Ubuntu&#xD;Link to heading&#xD;sudo apt-get update -qq -y sudo apt-get install lcov -y Instalar en Mac&#xD;Link to heading&#xD;brew install lcov Instalar en Windows&#xD;Link to heading&#xD;Se requiere:</description>
+    </item>
+    <item>
+      <title>Cofiguration server</title>
+      <link>chuaco/posts/notes-config-server/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/notes-config-server/</guid>
+      <description>View logs ngnix&#xD;Link to heading&#xD;$ cat /var/log/nginx/error.log # OR $ sudo tail -n 20 /var/log/nginx/error.log Check configuration nginx&#xD;Link to heading&#xD;$ nginx -c /etc/nginx/nginx.conf -t Reset service nginx on Ubuntu&#xD;Link to heading&#xD;$ sudo systemctl restart nginx Reload configuration of service nginx on Ubuntu&#xD;Link to heading&#xD;$ sudo systemctl reload nginx Assign permissitions for user of nginx on Ubuntu&#xD;Link to heading&#xD;$ chown -R www-data:www-data /var/www/domain.</description>
+    </item>
+    <item>
+      <title>Corrección Error 15517 MS SQL SERVER</title>
+      <link>chuaco/posts/fix-error-ms-sql-server/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/fix-error-ms-sql-server/</guid>
+      <description>Corrección Error 15517 MS SQL SERVER&#xA;Original link&#xA;No se puede ejecutar como la entidad de seguridad de base de datos porque la entidad &amp;lsquo;dbo&amp;rsquo; no existe, este tipo de entidad de seguridad no se puede suplantar o el usuario no tiene permiso.&#xA;Este fragmento de código que se usa para cambiar el propietario de una base de datos en Microsoft SQL Server en particular está utilizando un procedimiento almacenado del sistema llamado sp_changedbowner para realizar la acción.</description>
+    </item>
+    <item>
+      <title>Fix Error 15517 MS SQL SERVER</title>
+      <link>chuaco/posts/fix-error-ms-sql-server/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/fix-error-ms-sql-server/</guid>
+      <description>Fix Error 15517 MS SQL SERVER&#xA;Original link&#xA;This particular snippet of code that is used to change the owner of a database in Microsoft SQL Server, is using a system stored procedure called sp_changedbowner to perform the action.&#xA;USE [DB Name] GO EXEC dbo.sp_changedbowner @loginame = N&amp;#39;sa&amp;#39;, @map = false GO Here&amp;rsquo;s the breakdown of what each line does:&#xA;USE [DB Name]: This command switches the current database to the specified database.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>chuaco/posts/2023-11-24-silvers-flutter.es/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/2023-11-24-silvers-flutter.es/</guid>
+      <description>Desplazamiento en Flutter: Slivers y Más&#xD;Link to heading&#xD;Flutter utiliza &amp;lsquo;slivers&amp;rsquo; para el desplazamiento, donde un &amp;lsquo;sliver&amp;rsquo; es una unidad de cualquier área desplazable. Las pantallas desplazables son colecciones de &amp;lsquo;slivers&amp;rsquo;.&#xA;Transformación de Widgets No-Desplazables a Desplazables: Convierte elementos no-desplazables en desplazables.&#xA;SingleChildScrollview vs ListView:&#xA;ListView: Para múltiples widgets desplazables. ListView( children: &amp;lt;Widget&amp;gt;[ Text(&amp;#39;Item 1&amp;#39;), Text(&amp;#39;Item 2&amp;#39;), // Más widgets ], ) SingleChildScrollview: Para un único widget, manejando múltiples desplazamientos internos.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MS SQL SERVER on Tech-ZenoChien</title>
+    <link>chuaco/tags/ms-sql-server/</link>
+    <description>Recent content in MS SQL SERVER on Tech-ZenoChien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="chuaco/tags/ms-sql-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Corrección Error 15517 MS SQL SERVER</title>
+      <link>chuaco/posts/fix-error-ms-sql-server/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/fix-error-ms-sql-server/</guid>
+      <description>Corrección Error 15517 MS SQL SERVER&#xA;Original link&#xA;No se puede ejecutar como la entidad de seguridad de base de datos porque la entidad &amp;lsquo;dbo&amp;rsquo; no existe, este tipo de entidad de seguridad no se puede suplantar o el usuario no tiene permiso.&#xA;Este fragmento de código que se usa para cambiar el propietario de una base de datos en Microsoft SQL Server en particular está utilizando un procedimiento almacenado del sistema llamado sp_changedbowner para realizar la acción.</description>
+    </item>
+    <item>
+      <title>Fix Error 15517 MS SQL SERVER</title>
+      <link>chuaco/posts/fix-error-ms-sql-server/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>chuaco/posts/fix-error-ms-sql-server/</guid>
+      <description>Fix Error 15517 MS SQL SERVER&#xA;Original link&#xA;This particular snippet of code that is used to change the owner of a database in Microsoft SQL Server, is using a system stored procedure called sp_changedbowner to perform the action.&#xA;USE [DB Name] GO EXEC dbo.sp_changedbowner @loginame = N&amp;#39;sa&amp;#39;, @map = false GO Here&amp;rsquo;s the breakdown of what each line does:&#xA;USE [DB Name]: This command switches the current database to the specified database.</description>
+    </item>
+    <item>
+      <title>Fix Error 15517 MS SQL SERVER</title>
+      <link>chuaco/vn/posts/fix-error-ms-sql-server/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>chuaco/vn/posts/fix-error-ms-sql-server/</guid>
+      <description>Fix Error 15517 MS SQL SERVER&#xA;Original link&#xA;This particular snippet of code that is used to change the owner of a database in Microsoft SQL Server, is using a system stored procedure called sp_changedbowner to perform the action.&#xA;USE [DB Name] GO EXEC dbo.sp_changedbowner @loginame = N&amp;#39;sa&amp;#39;, @map = false GO Here&amp;rsquo;s the breakdown of what each line does:&#xA;USE [DB Name]: This command switches the current database to the specified database.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Tech-ZenoChien</title>
+    <link>chuaco/categories/</link>
+    <description>Recent content in Categories on Tech-ZenoChien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="chuaco/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dart</title>
+      <link>chuaco/categories/dart/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/dart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming language</title>
+      <link>chuaco/categories/programming-language/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/programming-language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Package</title>
+      <link>chuaco/categories/package/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/package/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backend</title>
+      <link>chuaco/categories/backend/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/backend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paquete</title>
+      <link>chuaco/categories/paquete/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/paquete/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lengua de Señas</title>
+      <link>chuaco/categories/lengua-de-se%C3%B1as/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/lengua-de-se%C3%B1as/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lengua de Señas Colombiana</title>
+      <link>chuaco/categories/lengua-de-se%C3%B1as-colombiana/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/lengua-de-se%C3%B1as-colombiana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sordo</title>
+      <link>chuaco/categories/sordo/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/sordo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flutter</title>
+      <link>chuaco/categories/flutter/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/flutter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FlutterConf Latam</title>
+      <link>chuaco/categories/flutterconf-latam/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/flutterconf-latam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lengua hablada</title>
+      <link>chuaco/categories/lengua-hablada/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/lengua-hablada/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sordera</title>
+      <link>chuaco/categories/sordera/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/sordera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lenguaje de programación</title>
+      <link>chuaco/categories/lenguaje-de-programaci%C3%B3n/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/lenguaje-de-programaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>chuaco/categories/sql/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>chuaco/categories/sql/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
